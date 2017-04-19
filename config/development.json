@@ -1,0 +1,6 @@
+{
+  "dbURL" : "mongodb://localhost/user-role-auth",
+  "host" : "localhost",
+  "port"  : "3000",
+  "seedData": false
+}
