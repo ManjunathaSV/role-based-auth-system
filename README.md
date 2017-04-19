@@ -8,7 +8,7 @@ This also includes a simple mongodb service which will expose methods to perform
 
 
 API implemented:
-GET 	http://server/checkAccess?userName=<user1>&resourceName=<role0>&accessType="<r|w|x>"  
+GET 	http://server/checkAccess?userName=user&resourceName=resource&accessType="<r|w|x>"  
 Returns true if the user has a particular access to the resource
 
 GET		http://server/users  				Set of all users
