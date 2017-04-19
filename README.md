@@ -1,4 +1,4 @@
-# user-auth-system
+# Role-based-auth-system
 A simple Role based user authentication system with following components
 a) User
 b) Role
