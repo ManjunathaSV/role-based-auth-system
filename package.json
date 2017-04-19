@@ -1,0 +1,32 @@
+{
+  "name": "role-based-auth-system",
+  "version": "1.0.0",
+  "description": "A Role based user authentication system for accessing resources",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "mocha src/test",
+    "reports" : "mocha src/test/test.js --reporter mochawesome --reporter-options reportDir=src/reports",
+    "start" : "node src/app.js"
+  },
+  "keywords": [
+    "user",
+    "auth",
+    "resources",
+    "roles"
+  ],
+  "author": "Manjunatha S V",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mocha": "^3.2.0",
+    "mongodb": "^2.2.25",
+    "q": "^1.5.0",
+    "querystring": "^0.2.0",
+    "revalidator": "^0.3.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "supertest": "^3.0.0"
+  }
+}
